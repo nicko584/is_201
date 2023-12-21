@@ -1,0 +1,65 @@
+
+
+
+        body {
+            background-color: rgb(125, 123, 123);
+            color: white; /* ensure readability against the black background */
+        }
+
+        ol li:nth-child(1) {
+            font-family: Arial, sans-serif;
+            color: rgb(38, 2, 2);
+        }
+
+        ol li:nth-child(2) {
+            font-family: 'Times New Roman', serif;
+            color: blue;
+        }
+
+        ol li:nth-child(3) {
+            font-family: 'Courier New', monospace;
+            font-weight: bolder;
+            color: rgb(5, 42, 5);
+        }
+
+        ol li:nth-child(4) {
+            font-family: 'Lucida Console', monospace;
+            color: yellow;
+        }
+
+        ol li:nth-child(5) {
+            font-family: 'Georgia', serif;
+            color: orange;
+        }
+        .home-button {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            padding: 10px 20px;
+            background-color: #4CAF50; /* Green background */
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        
+        .home-button:hover {
+            background-color: #45a049; /* Darker shade for hover effect */
+        }
+        .back-to-top {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 20px 0;
+            background-color: #4CAF50; /* Example color */
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        
+        .back-to-top:hover {
+            background-color: #45a049; /* Darker shade for hover effect */
+        }
+                
