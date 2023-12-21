@@ -5,6 +5,7 @@
             background-color: rgb(125, 123, 123);
             color: white; /* ensure readability against the black background */
         }
+        
 
         ol li:nth-child(1) {
             font-family: Arial, sans-serif;
